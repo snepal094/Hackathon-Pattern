@@ -1,0 +1,86 @@
+pattern_layout_mapping
+
+payor	   layout_id     datatype	employergroup               layouttype             pattern							        addeddate      modifieddate
+
+MERITAIN	173	Elgibilities	Texas Enterprise		Comma		ELIG.EXTRACT.VERSCEND.ELIG.88764.[0-9]+					2026-03-08	2026-03-09
+
+MERITAIN	173	Elgibilities	National Research Centre	Comma		ELIG.EXTRACT.VERSCEND.ELIG.66656.[0-9]+					2026-03-12	NULL
+
+MERITAIN	173	Elgibilities	Dell Corporation		Comma		ELIG.EXTRACT.VERSCEND.ELIG.90909.[0-9]+					2026-03-02	NULL
+
+MERITAIN	173	Elgibilities	Nepal Airlines			Comma		ELIG.EXTRACT.VERSCEND.ELIG.77764.[0-9]+					2026-04-01	NULL
+
+MERITAIN	173	Elgibilities	Baltra				Comma		ELIG.EXTRACT.VERSCEND.ELIG.12321.[0-9]+					2026-02-26	NULL
+
+Meritain	4942	Claims		American Airlines		Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.37195.[0-9]{8}				2026-03-09	NULL
+
+Meritain	4942	Claims		Hawai Resort			Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.38064.[0-9]{8}				2025-07-28	NULL
+
+Meritain	4942	Claims		New York Mart			Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.02741.[0-9]{8}				2025-02-21	NULL
+
+Meritain	4942	Claims		E-commerce Software Services	Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.53179.[0-9]{8}				2026-01-15	NULL
+
+Meritain	4942	Claims		Himalayan Bank			Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.53199.[0-9]{8}				2026-02-15	2026-04-04
+
+Meritain	4942	Claims		Lakeside Restaurant		Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.53179.[0-9]{8}				2026-01-15	NULL
+
+Meritain	4942	Claims		Sauraha Safari Services		Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.98986.[0-9]{8}				2026-01-15	NULL
+
+Meritain	4942	Claims		Hattisar Club			Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.65799.[0-9]{8}				2026-01-18	NULL
+
+Meritain	4942	Claims		Spring Boutique			Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.53179.[0-9]{8}				2026-01-04	NULL
+
+Meritain	4942	Claims		Autumn Wears			Pipe		ICD10.STANDARD.CLAIMS.EXTRACT.54321.[0-9]{8}				2026-02-28	NULL
+
+UHC	4493	Elgibilities		Hattisar Ludo Club		Fixed Length	718_UHC_941777_ELIGIBILITIES_[0-9]+_[0-9]+_
+                                                                                        SPLIT_ELIG_CLM_P941777_[0-9]+.TXT					2024-02-08	2024-03-09
+
+UHC	4493	Elgibilities		Cinnamon Rolls			Fixed Length	718_UHC_778989_ELIGIBILITIES_[0-9]+_[0-9]+_
+     											SPLIT_ELIG_CLM_P778989_[0-9]+.TXT					2022-02-28	2024-04-21
+
+UHC	4493	Elgibilities		Momo Pasal			Fixed Length	718_UHC_545678_ELIGIBILITIES_[0-9]+_[0-9]+_
+                                                                                        SPLIT_ELIG_CLM_P545678_[0-9]+.TXT					2022-08-27	NULL
+
+UHC	4493	Elgibilities		Yasuda				Fixed Length	718_UHC_525252_ELIGIBILITIES_[0-9]+_[0-9]+_
+											SPLIT_ELIG_CLM_P525252_[0-9]+.TXT					2026-08-16	NULL
+
+UHC	4493	Elgibilities		Home Glory			Fixed Length	718_UHC_865787_ELIGIBILITIES_[0-9]+_[0-9]+_
+                                                                                        SPLIT_ELIG_CLM_P865787_[0-9]+.TXT					2026-10-11	NULL
+
+UHC	6649	Elgibilities		Wool House			Tilde		718_UHC_555444_ELIGIBILITIES_[0-9]+_[0-9]+_
+											SPLIT_PEAKTECHNOLOGIES_ELIG_CLM_P555444_[0-9]+_[0-9]+_[0-9]+_[0-9]+.TXT	2026-05-06	NULL
+
+UHC	6649	Elgibilities		Chiya Cup			Tilde		718_UHC_786754_ELIGIBILITIES_[0-9]+_[0-9]+_
+											SPLIT_PEAKTECHNOLOGIES_ELIG_CLM_P786754_[0-9]+_[0-9]+_[0-9]+_[0-9]+.TXT	2025-11-06	NULL
+
+UHC	5859	Claims			Hattisar Ludo Club		Tilde		718_UHC_941777_CLAIMS_[0-9]+_[0-9]+_SPLIT_941777medclm[0-9]+.TXT	2024-02-08	2024-03-09
+
+UHC	5859	Claims			Cinnamon Rolls			Tilde		718_UHC_778989_CLAIMS_[0-9]+_[0-9]+_SPLIT_778989medclm[0-9]+.TXT	2022-02-28	2024-04-21
+
+UHC	5859	Claims			Momo Pasal			Tilde		718_UHC_545678_CLAIMS_[0-9]+_[0-9]+_SPLIT_545678medclm[0-9]+.TXT	2022-08-27	NULL
+
+UHC	5859	Claims			Yasuda				Tilde		718_UHC_525252_CLAIMS_[0-9]+_[0-9]+_SPLIT_525252medclm[0-9]+.TXT	2026-08-16	NULL
+
+UHC	5859	Claims			Home Glory			Tilde		718_UHC_865787_CLAIMS_[0-9]+_[0-9]+_SPLIT_865787medclm[0-9]+.TXT	2026-10-11	NULL
+
+UHC	6274	Claims			Wool House			Tilde		718_UHC_555444_CLAIMS_[0-9]+_[0-9]+_SPLIT_
+											PEAKTECHNOLOGIES_[0-9]+_[0-9]+_[0-9]+_[0-9]+.TXT			2026-05-06	NULL
+
+UHC	6649	Claims			Chiya Cup			Tilde		718_UHC_786754_CLAIMS_[0-9]+_[0-9]+_SPLIT_
+											PEAKTECHNOLOGIES_[0-9]+_[0-9]+_[0-9]+_[0-9]+.TXT			2025-11-06	NULL
+
+UHC	4992	RXCLAIMS		Hattisar Ludo Club		Fixed Length	718_UHC_941777_RXCLAIMS_[0-9]+_[0-9]+_SPLIT_941777palrx[0-9]+.TXT	2024-02-08	2024-03-09
+
+UHC	4992	RXCLAIMS		Cinnamon Rolls			Fixed Length	718_UHC_778989_RXCLAIMS_[0-9]+_[0-9]+_SPLIT_778989palrx[0-9]+.TXT	2022-02-28	2024-04-21
+
+UHC	4992	RXCLAIMS		Momo Pasal			Fixed Length	718_UHC_545678_RXCLAIMS_[0-9]+_[0-9]+_SPLIT_545678palrx[0-9]+.TXT	2022-08-27	NULL
+
+UHC	4992	RXCLAIMS		Yasuda				Fixed Length	718_UHC_525252_RXCLAIMS_[0-9]+_[0-9]+_SPLIT_525252palrx[0-9]+.TXT	2026-08-16	NULL
+
+UHC	4992	RXCLAIMS		Home Glory			Fixed Length	718_UHC_865787_RXCLAIMS_[0-9]+_[0-9]+_SPLIT_865787palrx[0-9]+.TXT	2026-10-11	NULL
+
+UHC	6273	RXCLAIMS		Wool House			Tilde		718_UHC_555444_RXCLAIMS_[0-9]+_[0-9]+_SPLIT_
+											PEAKTECHNOLOGIES_[0-9]+_[0-9]+_[0-9]+_[0-9]+.TXT			2026-05-06	NULL
+
+UHC	6273	RXCLAIMS		Chiya Cup			Tilde		718_UHC_786754_RXCLAIMS_[0-9]+_[0-9]+_SPLIT_
+											PEAKTECHNOLOGIES_[0-9]+_[0-9]+_[0-9]+_[0-9]+.TXT			2025-11-06	NULL
