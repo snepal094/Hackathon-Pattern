@@ -1,0 +1,1 @@
+select * from patterndashboard_generated_patterns;

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regex Generator</title>
+</head>
+<body>
+    <h2>Filename to Regex</h2>
+
+    <input type="text" id="filename" placeholder="Enter filename" size="50">
+    <button onclick="generateRegex()">Generate</button>
+
+    <p><strong>Regex:</strong> <span id="regex"></span></p>
+
+    <script>
+        function generateRegex() {
+            const filename = document.getElementById('filename').value;
+
+            fetch('/generate_regex/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ filename: filename })
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('regex').innerText = data.regex;
+                document.getElementById('valid').innerText = data.valid;
+            });
+        }
+    </script>
+</body>
+</html>
